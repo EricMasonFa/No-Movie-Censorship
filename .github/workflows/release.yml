@@ -26,3 +26,8 @@ jobs:
       with:
         filename: 'release.zip'
         exclusions: '*.git* .editorconfig LICENSE'
+
+    - name: Action Release
+      uses: yakuhzi/action-release@v1.2.0
+      with:
+        file: 'release.zip'
